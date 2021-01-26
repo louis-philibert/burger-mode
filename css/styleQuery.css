@@ -1,0 +1,105 @@
+/* Screens Resolution : < 532px
+------------------------------------------------------------------*/
+@media only screen and (max-width : 532px) {
+
+    /*Navigator*/
+
+    .nav {
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+
+    /*Login*/
+
+    #logo-login {
+        margin-bottom: calc(100% - 74%) !important;
+    }
+
+    /*Acceuil-animation*/
+
+    .glowing-animation {
+        display: none;
+    }
+}
+
+/* Screens Resolution : 533px ---> 767px
+------------------------------------------------------------------*/
+@media screen and (min-width: 533px) and (max-width : 767px) {
+
+    /*Navigator*/
+
+    .nav {
+        margin-bottom: 40px;
+        place-content: center;
+    }
+
+    /*Login*/
+
+    #logo-login {
+        margin-bottom: calc(100% - 80%) !important;
+    }
+
+    /*Acceuil-animation*/
+
+    .glowing-animation {
+        display: none;
+    }
+}
+
+/* Screens Resolution : 768px ---> 991px
+------------------------------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width : 991px) {
+
+    /*Navigator*/
+
+    .nav {
+        margin-bottom: 40px;
+        font-variant-caps: small-caps;
+    }
+
+    /*Login*/
+
+    #logo-login {
+        margin-bottom: calc(100% - 83%) !important;
+    }
+
+    /*Acceuil-animation*/
+
+    .glowing-animation {
+        display: none;
+    }
+}
+
+/* Screens Resolution : > 992px 
+------------------------------------------------------------------*/
+@media screen and (min-width : 992px) and (max-width : 1199px) {
+   
+    /*Login*/
+
+    #logo-login {
+        margin-bottom: calc(100% - 92%) !important;
+    }
+
+    /*Acceuil-animation*/
+
+    .glowing-animation {
+        display: none;
+    }
+}
+
+/* Screens Resolution : > 1200px 
+------------------------------------------------------------------*/
+@media screen and (min-width : 1200px) {
+
+     /*Login*/
+
+     #logo-login {
+        margin-bottom: calc(100% - 92%) !important;
+    }
+
+    /*Acceuil-animation-body*/
+
+    .site {
+        position: relative;
+    }
+}

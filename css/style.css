@@ -1,0 +1,139 @@
+/*-------------------------------------------------------------------------------------
+Général
+--------------------------------------------------------------------------------------*/
+
+body{background: url(../images/bg.png);}
+
+.site{font-family: 'Holtwood One SC', sans-serif; font-size: 12px; }
+
+/*-------------------------------------------------------------------------------------
+glowing-animation
+--------------------------------------------------------------------------------------*/
+
+.glowing-animation{inline-size: -webkit-fill-available;; height: 1098px; position: absolute; border-radius: 50px; border: 5px #087be6 solid;
+                   box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff, 0px 0px 60px #ff00c8, inset 0px 0px 60px #ff00c8;}
+/*-------------------------------------------------------------------------------------
+brand
+--------------------------------------------------------------------------------------*/
+
+.text-logo{font-family: 'Holtwood One SC', sans-serif; color: #e7480f; text-shadow: 2px 2px #ffd301; font-size: 55px; padding: 20px 0px; text-align: center;}
+
+.fa, .fas{font-family: "Font Awesome 5 Pro"; font-weight: 100;}
+
+.fa-utensils-alt:before{color: #ffd301; text-shadow: 0px 0px #ffd301;}
+
+/*-------------------------------------------------------------------------------------
+card
+--------------------------------------------------------------------------------------*/
+
+.img-thumbnail img{background: #ffd301; max-height: 100%;
+    max-width: 100%;}
+
+.img-thumbnail{margin-bottom: 15px; max-width: 100%; max-inline-size: fit-content;}
+
+.price{background: #5cb85c; box-shadow: 0 1px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0 1px rgba(0, 0, 0, 0.2); color: #fff; text-shadow: 2px 2px #333; position: absolute;right: 6px; top: 35px;
+      padding: 2px 5px; font-size: 20px; border-radius: 5px;}
+
+.price:before{border: 4px solid transparent; border-bottom: 4px solid #4a934a; border-left: 4px solid #4a934a; content:"";
+                position: absolute; right: 1px; top: -8px;}
+
+.caption > h4{color: #e7480f; font-size: 15px; padding: 10px 0 0 10px;}
+
+.caption > p{padding-left: 10px;}
+
+#btn-index{cursor: pointer; margin-left: 0px;}
+
+/*-------------------------------------------------------------------------------------------------
+navigator
+--------------------------------------------------------------------------------------------------*/
+
+.nav{margin-bottom: 40px;}
+
+.nav-pills .nav-link.active, .nav-pills>li.active, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{background: #e7480f;} 
+
+.nav-pills .nav-link.active>a:hover, .nav-pills .nav-link.active>a:focus{background-color: #eee; color: #e7480f; margin: -17px;}
+
+.nav>li>a:focus, .nav>li>a:hover{color:#e7480f; background-color: #eee; padding: 11px; border-radius: 5px;}
+
+.nav>li>a{color: #eee; font-size: 18px; text-shadow: 2px 2px #333;}
+
+/*------------------------------------------------------------------------------------------------
+button
+-------------------------------------------------------------------------------------------------*/
+
+.btn-order{width: 100%; padding: 10px; font-size: 16px; color: #fff; background-color: #e7480f; text-decoration: none; text-shadow: 2px 2px #333;}
+
+.btn-order:hover, .btn-order:focus{color: #fff; background-color: #c13c0d;}
+
+/*------------------------------------------------------------------------------------------------
+administrateur
+------------------------------------------------------------------------------------------------*/
+
+.admin{background: #fff; padding: 30px; border-radius: 10px; margin-bottom: 40px;}
+
+/*-----------------------------------------------------------------------------------------------
+table
+------------------------------------------------------------------------------------------------*/
+
+.table-bordered thead td, .table-bordered thead th{border-bottom-width: 2px; padding: 4px; font-family: -webkit-body;}
+
+.table-bordered td, .table-bordered th{font-family: -webkit-body; vertical-align: middle;}
+
+#actions{width: 320px; padding: 6px; text-align: center;}
+
+.btn:not(:disabled):not(.disabled) {cursor: pointer; margin-left: 5px;}
+
+.btn-success{padding: 6px; font-size: 20px; vertical-align: bottom;}
+
+/*-----------------------------------------------------------------------------------------------
+form-insert
+----------------------------------------------------------------------------------------------*/
+
+.help-inline{color: red}
+
+#h1-insert{min-inline-size: -webkit-fill-available;}
+
+#form-insert{margin: auto; font-family: initial; font-size: medium;}
+
+#btn-insert{font-size: 16px;}
+
+/*----------------------------------------------------------------------------------------------
+footer
+------------------------------------------------------------------------------------------------*/
+
+#footer{background: #fff; margin-top: 60px; border: 4mm ridge rgba(175, 175, 175, 1)};
+
+footer h6{color: #e7480f;}
+
+footer a{color: brown;;}
+footer a:hover {color: salmon; text-decoration: underline;}
+
+footer .fas {content: "\f015"; color: #e7480f;}
+
+footer .fab {content: "\f015"; color: #e7480f; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; -o-transition: all 0.8s;
+            -ms-transition: all 0.8s; transition: all 0.8s;}
+footer .fab:hover{ -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg);-ms--transform: rotate(360deg); transform: rotate(360deg);
+                  -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; -ms-transition: all 0.2s; transition: all 0.2s;}
+
+footer .lien{color: #eee;}
+footer .lien:hover{color: #eee;}
+
+.btn-footer {border: 0; line-height: 1.5; padding: 0 20px; font-size: 1rem; text-align: center; color: #fff; text-shadow: 1px 1px 1px #000;
+            border-radius: 0px; background-color: rgb(324, 72, 15); background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 10%,
+            rgba(0, 0, 0, 0)); box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);}
+
+.btn-footer:hover {background-color: rgba(186, 72, 15, 1);}
+
+.btn-footer:active {box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);}
+
+/*----------------------------------------------------------------------------------------------------------
+Login
+-----------------------------------------------------------------------------------------------------------*/
+
+#login{min-inline-size: -webkit-fill-available;}
+
+.adminis{background: #fff; padding: 30px; border-radius: 10px; margin-bottom: 40px; max-width: fit-content;}
+
+
+
